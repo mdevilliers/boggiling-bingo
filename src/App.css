@@ -76,6 +76,7 @@ footer a .icons {
 .title span:nth-child(1) {
     display: block;
 }
+
 @media screen and (max-width: 600px) {
     .title span:nth-child(1) {
         display: none;
@@ -111,7 +112,7 @@ footer a .icons {
     position: absolute;
     top: -28%;
     left: -30%;
-    color: #fbda7d;
+    color: black;
     width: 100%;
     opacity: 0;
     transition: 0.1s ease;
@@ -129,6 +130,7 @@ footer a .icons {
 .bingo-card__item {
     padding: 15px;
 }
+
 .bingo-card__item.active .bingo-card__checkbox:before {
     content: "\2714";
     position: absolute;
